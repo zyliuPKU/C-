@@ -1,0 +1,11 @@
+0.1下载vscode
+0.2下载g++
+  Step1:下载homebrew
+   打开terminal
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  Step2:添加环境变量
+   echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+   eval "$(/opt/homebrew/bin/brew shellenv)"
+  Step3:安装g++
+   brew install gcc
+   g++ --version
